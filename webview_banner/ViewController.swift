@@ -7,12 +7,24 @@
 //
 
 import UIKit
-
+import WebKit
 class ViewController: UIViewController {
 
+    @IBOutlet weak var webView: WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        let htmlpath=Bundle.main.path(forResource: "v3.1", ofType: "html")
+        let url:URL=URL(fileURLWithPath: htmlpath!)
+        
+        
+        
+        let urlrequest=URLRequest(url:url);
+        webView.load(urlrequest);
     }
 
     override func didReceiveMemoryWarning() {

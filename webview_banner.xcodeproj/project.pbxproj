@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6AD46E6121146F8500AF1265 /* v3.1.html in Resources */ = {isa = PBXBuildFile; fileRef = 6AD46E6021146F8500AF1265 /* v3.1.html */; };
 		6AEE1A70211467E2001D33B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEE1A6F211467E2001D33B8 /* AppDelegate.swift */; };
 		6AEE1A72211467E2001D33B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEE1A71211467E2001D33B8 /* ViewController.swift */; };
 		6AEE1A75211467E2001D33B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AEE1A73211467E2001D33B8 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6AD46E6021146F8500AF1265 /* v3.1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = v3.1.html; sourceTree = "<group>"; };
 		6AEE1A6C211467E2001D33B8 /* webview_banner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webview_banner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AEE1A6F211467E2001D33B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AEE1A71211467E2001D33B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		6AEE1A6E211467E2001D33B8 /* webview_banner */ = {
 			isa = PBXGroup;
 			children = (
+				6AD46E6021146F8500AF1265 /* v3.1.html */,
 				6AEE1A6F211467E2001D33B8 /* AppDelegate.swift */,
 				6AEE1A71211467E2001D33B8 /* ViewController.swift */,
 				6AEE1A73211467E2001D33B8 /* Main.storyboard */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AD46E6121146F8500AF1265 /* v3.1.html in Resources */,
 				6AEE1A7A211467E5001D33B8 /* LaunchScreen.storyboard in Resources */,
 				6AEE1A77211467E5001D33B8 /* Assets.xcassets in Resources */,
 				6AEE1A75211467E2001D33B8 /* Main.storyboard in Resources */,
@@ -433,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 32334KHFUC;
 				INFOPLIST_FILE = webview_banner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 32334KHFUC;
 				INFOPLIST_FILE = webview_banner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
